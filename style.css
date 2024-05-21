@@ -6,10 +6,6 @@ body {
     margin: 0;
 }
 
-section {
- background-color: pink;
-}
-
 header {
     padding-top: 30px;
 }
@@ -31,6 +27,7 @@ header {
 .navigation {
     display: inline-block;
     vertical-align: top;
+    margin-left: 200px;
 }
 
 .link {
@@ -48,4 +45,48 @@ header {
 
 .last-link {
     margin-right: 0;
+}
+
+button {
+    color: white;
+    background-color: green;
+    border-radius: 6px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    margin-left: 300px;
+}
+
+.content {
+    background-color: rgba(gray, gray, gray, alpha);
+    padding-left: 41px;
+    padding-bottom: 85px;
+    padding-right: 119px;
+}
+
+.content h1 {
+    margin-top: 0;
+}
+
+.content h2 {
+    width: 530px;
+    font-size: 70px;
+    line-height: 70px;
+    color: black;
+}
+
+span {
+    color: green;
+}
+.content-iner {
+    display: inline-block;
+    width: 507px;
+    padding-top: 35px;
+    vertical-align: top;
+}
+.now-end {
+    width: 140px;
+    height: 40px;
+    margin-left: 0px;
+    border-radius: 6px;
 }
