@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+ background-color: pink;
+}
+
+header {
+    padding-top: 30px;
+}
+
+.wrapper {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo img {
+    display: block;
+}
+.navigation {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 50px;
+    display: inline-block;
+}
+
+.active {
+    padding-bottom: 25px;
+    border-bottom: 2px solid green;
+}
+
+.last-link {
+    margin-right: 0;
+}
